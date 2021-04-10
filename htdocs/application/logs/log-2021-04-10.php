@@ -4690,3 +4690,133 @@ INFO - 2021-04-10 11:20:21 --> Helper loaded: captcha_helper
 INFO - 2021-04-10 11:20:21 --> File loaded: /var/www/pastebin/htdocs/themes/default/views/view/captcha.php
 INFO - 2021-04-10 11:20:21 --> Final output sent to browser
 DEBUG - 2021-04-10 11:20:21 --> Total execution time: 0.0189
+INFO - 2021-04-10 11:24:52 --> Config Class Initialized
+INFO - 2021-04-10 11:24:52 --> Hooks Class Initialized
+DEBUG - 2021-04-10 11:24:52 --> UTF-8 Support Enabled
+INFO - 2021-04-10 11:24:52 --> Utf8 Class Initialized
+INFO - 2021-04-10 11:24:52 --> URI Class Initialized
+DEBUG - 2021-04-10 11:24:52 --> No URI present. Default controller set.
+INFO - 2021-04-10 11:24:52 --> Router Class Initialized
+INFO - 2021-04-10 11:24:52 --> Output Class Initialized
+INFO - 2021-04-10 11:24:52 --> Security Class Initialized
+DEBUG - 2021-04-10 11:24:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-04-10 11:24:52 --> Input Class Initialized
+INFO - 2021-04-10 11:24:52 --> Language Class Initialized
+INFO - 2021-04-10 11:24:52 --> Loader Class Initialized
+DEBUG - 2021-04-10 11:24:52 --> MY_Loader Class Initialized
+DEBUG - 2021-04-10 11:24:52 --> Config file loaded: /var/www/pastebin/htdocs/application/config/stikked.php
+INFO - 2021-04-10 11:24:52 --> Helper loaded: url_helper
+INFO - 2021-04-10 11:24:52 --> Helper loaded: date_helper
+INFO - 2021-04-10 11:24:52 --> Helper loaded: language_helper
+INFO - 2021-04-10 11:24:52 --> Language file loaded: language/english/stikked_lang.php
+INFO - 2021-04-10 11:24:52 --> Database Driver Class Initialized
+DEBUG - 2021-04-10 11:24:52 --> Carabiner: Library initialized.
+INFO - 2021-04-10 11:24:52 --> Controller Class Initialized
+DEBUG - 2021-04-10 11:24:52 --> Config file loaded: /var/www/pastebin/htdocs/application/config/geshi_languages.php
+INFO - 2021-04-10 11:24:52 --> Model "Languages" initialized
+DEBUG - 2021-04-10 11:24:52 --> cURL Class Initialized
+INFO - 2021-04-10 11:24:52 --> Session: Class initialized using 'database' driver.
+INFO - 2021-04-10 11:24:52 --> Helper loaded: json_helper
+INFO - 2021-04-10 11:24:52 --> Helper loaded: form_helper
+DEBUG - 2021-04-10 11:24:52 --> Carabiner: library configured.
+INFO - 2021-04-10 11:24:52 --> File loaded: /var/www/pastebin/htdocs/themes/default/views/defaults/header.php
+INFO - 2021-04-10 11:24:52 --> File loaded: /var/www/pastebin/htdocs/themes/default/views/defaults/paste_form.php
+INFO - 2021-04-10 11:24:52 --> File loaded: /var/www/pastebin/htdocs/themes/default/views/defaults/footer_message.php
+INFO - 2021-04-10 11:24:52 --> File loaded: /var/www/pastebin/htdocs/themes/default/views/defaults/footer.php
+INFO - 2021-04-10 11:24:52 --> File loaded: /var/www/pastebin/htdocs/themes/default/views/home.php
+INFO - 2021-04-10 11:24:52 --> Final output sent to browser
+DEBUG - 2021-04-10 11:24:52 --> Total execution time: 0.0257
+INFO - 2021-04-10 11:24:52 --> Config Class Initialized
+INFO - 2021-04-10 11:24:52 --> Hooks Class Initialized
+DEBUG - 2021-04-10 11:24:52 --> UTF-8 Support Enabled
+INFO - 2021-04-10 11:24:52 --> Utf8 Class Initialized
+INFO - 2021-04-10 11:24:52 --> URI Class Initialized
+INFO - 2021-04-10 11:24:52 --> Router Class Initialized
+INFO - 2021-04-10 11:24:52 --> Output Class Initialized
+INFO - 2021-04-10 11:24:52 --> Security Class Initialized
+DEBUG - 2021-04-10 11:24:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-04-10 11:24:52 --> Input Class Initialized
+INFO - 2021-04-10 11:24:52 --> Language Class Initialized
+INFO - 2021-04-10 11:24:52 --> Loader Class Initialized
+DEBUG - 2021-04-10 11:24:52 --> MY_Loader Class Initialized
+DEBUG - 2021-04-10 11:24:52 --> Config file loaded: /var/www/pastebin/htdocs/application/config/stikked.php
+INFO - 2021-04-10 11:24:52 --> Helper loaded: url_helper
+INFO - 2021-04-10 11:24:52 --> Helper loaded: date_helper
+INFO - 2021-04-10 11:24:52 --> Helper loaded: language_helper
+INFO - 2021-04-10 11:24:52 --> Language file loaded: language/english/stikked_lang.php
+INFO - 2021-04-10 11:24:52 --> Database Driver Class Initialized
+DEBUG - 2021-04-10 11:24:52 --> Carabiner: Library initialized.
+INFO - 2021-04-10 11:24:52 --> Controller Class Initialized
+DEBUG - 2021-04-10 11:24:52 --> Config file loaded: /var/www/pastebin/htdocs/application/config/geshi_languages.php
+INFO - 2021-04-10 11:24:52 --> Model "Languages" initialized
+DEBUG - 2021-04-10 11:24:52 --> cURL Class Initialized
+INFO - 2021-04-10 11:24:52 --> Session: Class initialized using 'database' driver.
+INFO - 2021-04-10 11:24:52 --> Helper loaded: captcha_helper
+INFO - 2021-04-10 11:24:52 --> File loaded: /var/www/pastebin/htdocs/themes/default/views/view/captcha.php
+INFO - 2021-04-10 11:24:52 --> Final output sent to browser
+DEBUG - 2021-04-10 11:24:52 --> Total execution time: 0.0160
+INFO - 2021-04-10 11:26:45 --> Config Class Initialized
+INFO - 2021-04-10 11:26:45 --> Hooks Class Initialized
+DEBUG - 2021-04-10 11:26:45 --> UTF-8 Support Enabled
+INFO - 2021-04-10 11:26:45 --> Utf8 Class Initialized
+INFO - 2021-04-10 11:26:45 --> URI Class Initialized
+DEBUG - 2021-04-10 11:26:45 --> No URI present. Default controller set.
+INFO - 2021-04-10 11:26:45 --> Router Class Initialized
+INFO - 2021-04-10 11:26:45 --> Output Class Initialized
+INFO - 2021-04-10 11:26:45 --> Security Class Initialized
+DEBUG - 2021-04-10 11:26:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-04-10 11:26:45 --> Input Class Initialized
+INFO - 2021-04-10 11:26:45 --> Language Class Initialized
+INFO - 2021-04-10 11:26:45 --> Loader Class Initialized
+DEBUG - 2021-04-10 11:26:45 --> MY_Loader Class Initialized
+DEBUG - 2021-04-10 11:26:45 --> Config file loaded: /var/www/pastebin/htdocs/application/config/stikked.php
+INFO - 2021-04-10 11:26:45 --> Helper loaded: url_helper
+INFO - 2021-04-10 11:26:45 --> Helper loaded: date_helper
+INFO - 2021-04-10 11:26:45 --> Helper loaded: language_helper
+INFO - 2021-04-10 11:26:45 --> Language file loaded: language/english/stikked_lang.php
+INFO - 2021-04-10 11:26:45 --> Database Driver Class Initialized
+DEBUG - 2021-04-10 11:26:45 --> Carabiner: Library initialized.
+INFO - 2021-04-10 11:26:45 --> Controller Class Initialized
+DEBUG - 2021-04-10 11:26:45 --> Config file loaded: /var/www/pastebin/htdocs/application/config/geshi_languages.php
+INFO - 2021-04-10 11:26:45 --> Model "Languages" initialized
+DEBUG - 2021-04-10 11:26:45 --> cURL Class Initialized
+INFO - 2021-04-10 11:26:45 --> Session: Class initialized using 'database' driver.
+INFO - 2021-04-10 11:26:45 --> Helper loaded: json_helper
+INFO - 2021-04-10 11:26:45 --> Helper loaded: form_helper
+DEBUG - 2021-04-10 11:26:45 --> Carabiner: library configured.
+INFO - 2021-04-10 11:26:45 --> File loaded: /var/www/pastebin/htdocs/themes/default/views/defaults/header.php
+INFO - 2021-04-10 11:26:45 --> File loaded: /var/www/pastebin/htdocs/themes/default/views/defaults/paste_form.php
+INFO - 2021-04-10 11:26:45 --> File loaded: /var/www/pastebin/htdocs/themes/default/views/defaults/footer_message.php
+INFO - 2021-04-10 11:26:45 --> File loaded: /var/www/pastebin/htdocs/themes/default/views/defaults/footer.php
+INFO - 2021-04-10 11:26:45 --> File loaded: /var/www/pastebin/htdocs/themes/default/views/home.php
+INFO - 2021-04-10 11:26:45 --> Final output sent to browser
+DEBUG - 2021-04-10 11:26:45 --> Total execution time: 0.0195
+INFO - 2021-04-10 11:26:45 --> Config Class Initialized
+INFO - 2021-04-10 11:26:45 --> Hooks Class Initialized
+DEBUG - 2021-04-10 11:26:45 --> UTF-8 Support Enabled
+INFO - 2021-04-10 11:26:45 --> Utf8 Class Initialized
+INFO - 2021-04-10 11:26:45 --> URI Class Initialized
+INFO - 2021-04-10 11:26:45 --> Router Class Initialized
+INFO - 2021-04-10 11:26:45 --> Output Class Initialized
+INFO - 2021-04-10 11:26:45 --> Security Class Initialized
+DEBUG - 2021-04-10 11:26:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-04-10 11:26:45 --> Input Class Initialized
+INFO - 2021-04-10 11:26:45 --> Language Class Initialized
+INFO - 2021-04-10 11:26:45 --> Loader Class Initialized
+DEBUG - 2021-04-10 11:26:45 --> MY_Loader Class Initialized
+DEBUG - 2021-04-10 11:26:45 --> Config file loaded: /var/www/pastebin/htdocs/application/config/stikked.php
+INFO - 2021-04-10 11:26:45 --> Helper loaded: url_helper
+INFO - 2021-04-10 11:26:45 --> Helper loaded: date_helper
+INFO - 2021-04-10 11:26:45 --> Helper loaded: language_helper
+INFO - 2021-04-10 11:26:45 --> Language file loaded: language/english/stikked_lang.php
+INFO - 2021-04-10 11:26:45 --> Database Driver Class Initialized
+DEBUG - 2021-04-10 11:26:45 --> Carabiner: Library initialized.
+INFO - 2021-04-10 11:26:45 --> Controller Class Initialized
+DEBUG - 2021-04-10 11:26:45 --> Config file loaded: /var/www/pastebin/htdocs/application/config/geshi_languages.php
+INFO - 2021-04-10 11:26:45 --> Model "Languages" initialized
+DEBUG - 2021-04-10 11:26:45 --> cURL Class Initialized
+INFO - 2021-04-10 11:26:45 --> Session: Class initialized using 'database' driver.
+INFO - 2021-04-10 11:26:45 --> Helper loaded: captcha_helper
+INFO - 2021-04-10 11:26:45 --> File loaded: /var/www/pastebin/htdocs/themes/default/views/view/captcha.php
+INFO - 2021-04-10 11:26:45 --> Final output sent to browser
+DEBUG - 2021-04-10 11:26:45 --> Total execution time: 0.0115
