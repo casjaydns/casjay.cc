@@ -1,2 +1,3 @@
-# ignore config
-htdocs/application/config/stikked.php
+# ignore list
+htdocs/application/config/stikked.php.dist
+htdocs/static/asset/*
