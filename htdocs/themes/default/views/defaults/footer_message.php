@@ -37,7 +37,7 @@ Casjays Developments privacy policy can be found at<br />
   <a href="http://github.com/casjay" target="_blank" rel="noopener">
     Jason M. Hempstead (Casjay)</a><br />
   This site is powered by opensource software<br />
-  <a href="https://github.com/claudehohl/Stikked">A customized version of stikked<a/>
+  <a href="https://github.com/claudehohl/Stikked" target="_blank" rel="noopener">A customized version of stikked<a/>
 </div>
 <br />
 <!-- End Theme powered -->
@@ -45,7 +45,7 @@ Casjays Developments privacy policy can be found at<br />
    <!-- End theme Code -->
   <!-- Begin last updated -->
   <span style="color: skyblue;">
-    Last update on: August 19, 2021 at 16:49
+    Last update on: August 19, 2021 at 16:59
   </span>
   <!-- End last updated -->
   <!--Begin Statcounter Code -->
