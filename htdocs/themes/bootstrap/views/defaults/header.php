@@ -27,11 +27,12 @@ $this->carabiner->config(array(
 
 // CSS
 $this->carabiner->css('bootstrap.css');
+$this->carabiner->css('slate.min.css');
 $this->carabiner->css('bootstrap-responsive.css');
 $this->carabiner->css('style.css');
 $this->carabiner->css('codemirror.css');
 
-$this->carabiner->display('css'); 
+$this->carabiner->display('css');
 
 $searchparams = ($this->input->get('search') ? '?search=' . $this->input->get('search') : '');
 
@@ -42,7 +43,7 @@ $searchparams = ($this->input->get('search') ? '?search=' . $this->input->get('s
 	//]]>
 	</script>
 	</head>
-	<body>		
+	<body>
 		<header>
 			<div class="navbar navbar-fixed-top">
 				<div class="navbar-inner">
@@ -79,4 +80,4 @@ $searchparams = ($this->input->get('search') ? '?search=' . $this->input->get('s
 						<?php echo $status_message; ?>
 					</div>
 				</div>
-				<?php }?>				
+				<?php }?>

@@ -9,6 +9,10 @@
 	display: none;
 }
 
+.code {
+  color #fff
+}
+
 
 /* Footer
 -------------------------------------------------- */
@@ -125,6 +129,7 @@ table.table thead .sorting_desc_disabled { background: url('../images/sort_desc_
 
 .text {
     word-wrap: break-word;
+    color: #fff
 }
 
 .ui-selectable>.ui-selected { background-color: #a6c9e2; }
@@ -135,3 +140,4 @@ table.table thead .sorting_desc_disabled { background: url('../images/sort_desc_
     z-index: 100;
     border:1px dotted black;
 }
+
