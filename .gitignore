@@ -1,4 +1,5 @@
 # ignore list
+dirignore
 htdocs/application/config/stikked.php.dist
 htdocs/static/asset/*
 htdocs/application/logs/*
