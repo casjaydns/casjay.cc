@@ -8,7 +8,7 @@ $config['db_database'] = '/var/lib/httpd/stikked';
 $config['db_driver'] = 'sqlite';
 $config['db_prefix'] = '';
 //Currently: default, bootstrap, gabdark, gabdark3, geocities, snowkat, stikkedizr, cleanwhite, i386
-$config['theme'] = 'default';
+$config['theme'] = 'gabdark3';
 $config['qr_enabled'] = true;
 $config['js_editor'] = 'ACE'; // codemirror, ace, ''
 $config['language'] = 'english';
