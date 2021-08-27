@@ -1,5 +1,5 @@
 # ignore list
-dirignore
+ignoredirmessage
 htdocs/application/config/stikked.php.dist
 htdocs/static/asset/*
 htdocs/application/logs/*
