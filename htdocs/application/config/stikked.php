@@ -3,7 +3,7 @@
 }
 
 $config['site_name'] = 'CasjaysDev pastebin';
-$config['base_url'] = 'https://casjay.cc/';
+$config['base_url'] = '/';
 $config['db_database'] = '/var/lib/httpd/stikked';
 $config['db_driver'] = 'sqlite';
 $config['db_prefix'] = '';
