@@ -276,14 +276,13 @@ h4 {
 }
 
 .form_wrapper button {
-  display: inline;
   clear: both;
   float: left;
   margin-left: 150px;
   width: 125px;
   height: 30px;
   border: 0;
-  background-color: #353244;
+  background: #666666;
   text-align: center;
   line-height: 231%;
   color: #ffffff;
@@ -301,11 +300,12 @@ h4 {
 }
 
 .form_wrapper button:hover {
-  color: #566476;
+  color: #000;
+  background-color: #ccc;
 }
 
 .form_wrapper .dangerbutton:hover {
-  background: rgb(139, 157, 206);
+  background: #f00;
 }
 
 .form_wrapper .message_wrapper .message {
