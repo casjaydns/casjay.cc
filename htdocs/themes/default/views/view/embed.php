@@ -1,9 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
- 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <?php
 $page_title = '';
-if(isset($title))
-{
+if (isset($title)) {
     $page_title .= $title . ' - ';
 }
 $page_title .= $this->config->item('site_name');
@@ -18,11 +16,11 @@ $theme = $this->config->item('theme');
 //Carabiner
 $this->carabiner->config(array(
     'script_dir' => 'themes/default/js/',
-    'style_dir'  => 'themes/' . $theme . '/css/',
-    'cache_dir'  => 'static/asset/',
-    'base_uri'	 => base_url(),
-    'combine'	 => true,
-    'dev'		 => !$this->config->item('combine_assets'),
+    'style_dir' => 'themes/' . $theme . '/css/',
+    'cache_dir' => 'static/asset/',
+    'base_uri' => base_url(),
+    'combine' => true,
+    'dev' => !$this->config->item('combine_assets'),
 ));
 
 // CSS
@@ -31,7 +29,7 @@ $this->carabiner->css('fonts.css');
 $this->carabiner->css('main.css');
 $this->carabiner->css('embed.css');
 
-$this->carabiner->display('css'); 
+$this->carabiner->display('css');
 
 ?>
 	<script type="text/javascript">
@@ -43,11 +41,11 @@ $this->carabiner->display('css');
 	<body>
 
 <div class="paste">
-<?php if($this->uri->segment(4) != 'diff'){ ?>
+<?php if ($this->uri->segment(4) != 'diff') {?>
     <p><a href="<?php echo site_url('view/' . $pid); ?>" target="_blank">This paste</a> brought to you by <a href="<?php echo base_url(); ?>" target="_blank"><?php echo $this->config->item('site_name'); ?></a>. <a class="right" href="<?php echo site_url('view/raw/' . $pid); ?>" target="_blank">View Raw</a></p>
-<?php }else{ ?>
+<?php } else {?>
     <p><a href="<?php echo site_url('view/' . $pid . '/diff'); ?>" target="_blank">This diff</a> of <a href="<?php echo site_url('view/' . $pid); ?>" target="_blank">that paste</a> brought to you by <a href="<?php echo base_url(); ?>" target="_blank"><?php echo $this->config->item('site_name'); ?></a>. <a class="right" href="<?php echo site_url('view/raw/' . $pid); ?>" target="_blank">View Raw</a></p>
-<?php } ?>
+<?php }?>
 	<div class="text_formatted">
 		<div class="container">
 			<?php echo $paste; ?>
