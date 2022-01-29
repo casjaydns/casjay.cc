@@ -1,11 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
 
 html {
-  background: none;
+  background-color: #000;
 }
 
 body {
-  background-color: #161f30;
+  background-color: #000;
   color: #fefefe;
   font-family: Arial, Tahoma, Verdana, sans-serif;
 }
@@ -144,7 +144,7 @@ h4 {
 
 .form_wrapper.background {
   border: solid 2px #b7ddf2;
-  background: #ebf4fb;
+  background: #000;
   padding: 14px;
 }
 
@@ -302,8 +302,8 @@ h4 {
 }
 
 .form_wrapper button:hover {
-  color: #000;
-  background-color: #ccc;
+  color: #566476;
+  background-color: #000;
 }
 
 .form_wrapper .dangerbutton:hover {
@@ -399,16 +399,17 @@ h4 {
 }
 
 .recent .odd {
-  background-color: none;
+  background-color: #000;
 }
 
 .recent .even {
-  color: #000;
-  background-color: #f1f5fa;
+  color: #f1f5fa;
+  background-color: #000;
 }
 
 .recent .even a {
-  color: #000;
+  color: #f1f5fa;
+  background-color: #000;
 }
 
 /* !Pastes */
@@ -460,9 +461,9 @@ h4 {
   border: 3px solid #d5dae3;
   margin-top: 10px;
   margin-left: 10px;
-  background: #fff;
+  background: #000;
   position: relative;
-  color: #000;
+  color: #ffffff;
 }
 
 .text_formatted ol {
@@ -475,13 +476,13 @@ h4 {
 
 .text_formatted ins {
   color: green;
-  background: #dfd;
+  background-color: rgb(34, 34, 34);
   text-decoration: none;
 }
 
 .text_formatted del {
   color: red;
-  background: #fdd;
+  background-color: #fdd;
 }
 
 /* !Messages */
@@ -497,11 +498,11 @@ h4 {
 }
 
 .message.status {
-  background: #db9330;
+  background-color: #db9330;
 }
 
 .message.error {
-  background: red;
+  background-color: red;
 }
 
 .message .container {
@@ -580,7 +581,7 @@ h4 {
   margin: 0 30% 10px 25%;
   padding: 15px 10px 15px 50px;
   text-align: center;
-  background-color: #ccc;
+  background-color: rgb(17, 17, 17);
   color: #d8000c;
 }
 
@@ -596,7 +597,7 @@ h4 {
 /* Special for dark theme */
 
 a {
-  color: #fff;
+  color: rgb(92, 4, 4);
   text-decoration: underline;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -605,11 +606,11 @@ a {
   transition: all 0.25s ease-in-out;
 }
 a:hover {
-  color: #ccc;
+  color: rgb(161, 14, 38);
   text-decoration: none;
 }
 .CodeMirror-scroll {
-  background-color: #fff;
+  background-color: #000;
 }
 
 .text {
