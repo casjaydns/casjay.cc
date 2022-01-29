@@ -609,7 +609,7 @@ a {
   transition: all 0.25s ease-in-out;
 }
 a:hover {
-  color: rgb(197, 209, 189);
+  color: transparent;
   text-decoration: none;
 }
 .CodeMirror-scroll {
