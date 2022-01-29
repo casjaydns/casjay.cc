@@ -611,6 +611,7 @@ a {
 
 a .linkified {
   color: rgb(100, 154, 199);
+  background-color: transparent;
 }
 
 a:hover {
