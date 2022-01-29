@@ -277,6 +277,7 @@ h4 {
 }
 
 .form_wrapper button {
+  display: inline;
   clear: both;
   float: left;
   margin-left: 150px;
