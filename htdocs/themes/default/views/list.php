@@ -3,12 +3,13 @@
 
 <?php $this->load->view('view/search');?>
 
-		<?php 
-		function checkNum($num){
-			return ($num%2) ? TRUE : FALSE;
-		}
-		$n = 0;		
-		if(!empty($pastes)){ ?>
+		<?php
+function checkNum($num)
+{
+    return ($num % 2) ? true : false;
+}
+$n = 0;
+if (!empty($pastes)) {?>
 			<table class="recent">
 				<tbody>
 					<tr>
@@ -17,27 +18,27 @@
 						<th class="lang"><?php echo lang('table_lang'); ?></th>
 						<th class="time"><?php echo lang('table_time'); ?></th>
 					</tr>
-		<?php	foreach($pastes as $paste) {
-				if(checkNum($n) == TRUE) {
-					$eo = "even";
-				} else {
-					$eo = "odd";
-				}
-				$n++;
-		?>	
+		<?php	foreach ($pastes as $paste) {
+    if (checkNum($n) == true) {
+        $eo = "even";
+    } else {
+        $eo = "odd";
+    }
+    $n++;
+    ?>
 
 		<tr class="<?php echo $eo; ?>">
-			<td class="first"><a href="<?php echo site_url("view/".$paste['pid']); ?>"><?php echo $paste['title']; ?></a></td>
+			<td class="first"><a href="<?php echo site_url("view/" . $paste['pid']); ?>"><?php echo $paste['title']; ?></a></td>
 			<td><?php echo $paste['name']; ?></td>
 			<td><?php echo $paste['lang']; ?></td>
 			<td><?php $p = explode(",", timespan($paste['created'], time()));
-			echo sprintf($this->lang->line('paste_ago'),$p[0]); ?>.</td>
+    echo sprintf($this->lang->line('paste_ago'), $p[0]);?>.</td>
 		</tr>
 
 		<?php }?>
 				</tbody>
-			</table> 
-		<?php } else { ?>
+			</table>
+		<?php } else {?>
 			<p><?php echo lang('paste_missing'); ?> :(</p>
 		<?php }?>
 <?php echo $pages; ?>
