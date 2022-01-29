@@ -559,7 +559,7 @@ h4 {
 }
 
 .footer a {
-  color: inherit;
+  color: rgb(114, 95, 151);
   text-decoration: underline;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
