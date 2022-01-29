@@ -1,11 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
 
 html {
-  background-color: #000;
+  background-color: rgb(21, 1, 44);
 }
 
 body {
-  background-color: #000;
   color: #fefefe;
   font-family: Arial, Tahoma, Verdana, sans-serif;
 }
