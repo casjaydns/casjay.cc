@@ -12,10 +12,10 @@
 			<div class="header">
 				<div class="container">
 					<div class="logo"><?php echo $this->config->item('site_name'); ?></div>
-					<div class="toolbar">	
+					<div class="toolbar">
 						<ul>
 							<?php $page = $this->uri->segment(2); // There is currently only one link so the active link may seem pointless but this future proofs it. ?>
-							<li class="<?php if($page =="" || $page == "view"){?>active<?php } ?>"><a href="<?php echo base_url(); ?>iphone">View</a></li>
+							<li class="<?php if ($page == "" || $page == "view") {?>active<?php }?>"><a href="<?php echo base_url(); ?>iphone">View</a></li>
 						</ul>
 					</div>
 				</div>
