@@ -599,6 +599,7 @@ h4 {
 
 a {
   /* color: rgb(100, 154, 199); */
+  color: #fff;
   text-decoration: underline;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
