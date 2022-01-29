@@ -7,18 +7,19 @@
 */
 
 body {
-	font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana,  "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 14px;
+  font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', Verdana,
+    'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 #container {
-	width: 95%;
-	margin: 20px auto;	
+  width: 95%;
+  margin: 20px auto;
 }
 
 pre {
-	background-color: #eee;
-	padding: 5px;
-	font-family: monospace;
-	overflow: auto;
+  background-color: #eee;
+  padding: 5px;
+  font-family: monospace;
+  overflow: auto;
 }
