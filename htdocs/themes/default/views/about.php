@@ -1,8 +1,8 @@
-<?php $this->load->view("defaults/header"); ?>
+<?php $this->load->view("defaults/header");?>
 
 <div class="about">
   <h1>About</h1>
-  <p>This site is running a <a href="https://github.com/casjay-coffee/casjay.cc">modified</a> version of <a href="https://github.com/claudehohl/Stikked">Stikked</a></p>
+  <p>This site is running a <a href="https://github.com/casjaydns/casjay.cc">modified</a> version of <a href="https://github.com/claudehohl/Stikked">Stikked</a></p>
   <p>Stikked is an Open-Source PHP Pastebin, with the aim of keeping a simple and easy to use user interface.</p>
   <p>Stikked allows you to easily share code with anyone you wish. Here are some features:</p>
 
@@ -21,4 +21,4 @@
 
 </div>
 
-<?php $this->load->view("defaults/footer"); ?>
+<?php $this->load->view("defaults/footer");?>
