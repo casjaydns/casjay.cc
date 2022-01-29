@@ -1,9 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
- 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <?php
 $page_title = '';
-if(isset($title))
-{
+if (isset($title)) {
     $page_title .= $title . ' - ';
 }
 $page_title .= $this->config->item('site_name');
@@ -19,11 +17,11 @@ $theme = $this->config->item('theme');
 //Carabiner
 $this->carabiner->config(array(
     'script_dir' => 'themes/default/js/',
-    'style_dir'  => 'themes/' . $theme . '/css/',
-    'cache_dir'  => 'static/asset/',
-    'base_uri'	 => $this->config->item('base_url'),
-    'combine'	 => true,
-    'dev'		 => !$this->config->item('combine_assets'),
+    'style_dir' => 'themes/' . $theme . '/css/',
+    'cache_dir' => 'static/asset/',
+    'base_uri' => $this->config->item('base_url'),
+    'combine' => true,
+    'dev' => !$this->config->item('combine_assets'),
 ));
 
 // CSS
@@ -35,7 +33,7 @@ $this->carabiner->css('print.css', 'print');
 $this->carabiner->css('codemirror.css');
 $this->carabiner->css('diff.css');
 
-$this->carabiner->display('css'); 
+$this->carabiner->display('css');
 
 $searchparams = ($this->input->get('search') ? '?search=' . $this->input->get('search') : '');
 $searchparams = str_replace('"', '&quot;', $searchparams);
@@ -49,33 +47,33 @@ $searchparams = str_replace('"', '&quot;', $searchparams);
 	</head>
 	<body>
 		<div id="container">
-			<div class="container">			
+			<div class="container">
 				<div class="header">
 					<h1><a href="<?php echo base_url(); ?>" class="title"><?php echo $this->config->item('site_name'); ?></a></h1>
 					<ul class="tabs">
 						<?php $l = $this->uri->segment(1)?>
-						<li><a <?php if($l == ""){ echo 'class="active"'; }?> href="<?php echo base_url(); ?>" title="<?php echo lang('menu_create_title'); ?>"><?php echo lang('menu_create'); ?></a></li>
-<?php if(! $this->config->item('private_only')){ ?>
-						<li><a <?php if($l == "lists"){ echo 'class="active"'; }?> href="<?php echo site_url('lists') . $searchparams; ?>" title="<?php echo lang('menu_recent_title'); ?>"><?php echo lang('menu_recent'); ?></a></li>
-						<li><a <?php if($l == "trends"){ echo 'class="active"'; }?> href="<?php echo site_url('trends') . $searchparams; ?>" title="<?php echo lang('menu_trending_title'); ?>"><?php echo lang('menu_trending'); ?></a></li>
-<?php } ?>
-<?php if(! $this->config->item('disable_api')){ ?>
-						<li><a  <?php if($l == "api"){ echo 'class="active"'; }?> href="<?php echo site_url('api'); ?>" title="<?php echo lang('menu_api'); ?>"><?php echo lang('menu_api'); ?></a></li>
-<?php } ?>
-						<li><a  <?php if($l == "about"){ echo 'class="active"'; }?> href="<?php echo site_url('about'); ?>" title="<?php echo lang('menu_about'); ?>"><?php echo lang('menu_about'); ?></a></li>
+						<li><a <?php if ($l == "") {echo 'class="active"';}?> href="<?php echo base_url(); ?>" title="<?php echo lang('menu_create_title'); ?>"><?php echo lang('menu_create'); ?></a></li>
+<?php if (!$this->config->item('private_only')) {?>
+						<li><a <?php if ($l == "lists") {echo 'class="active"';}?> href="<?php echo site_url('lists') . $searchparams; ?>" title="<?php echo lang('menu_recent_title'); ?>"><?php echo lang('menu_recent'); ?></a></li>
+						<li><a <?php if ($l == "trends") {echo 'class="active"';}?> href="<?php echo site_url('trends') . $searchparams; ?>" title="<?php echo lang('menu_trending_title'); ?>"><?php echo lang('menu_trending'); ?></a></li>
+<?php }?>
+<?php if (!$this->config->item('disable_api')) {?>
+						<li><a  <?php if ($l == "api") {echo 'class="active"';}?> href="<?php echo site_url('api'); ?>" title="<?php echo lang('menu_api'); ?>"><?php echo lang('menu_api'); ?></a></li>
+<?php }?>
+						<li><a  <?php if ($l == "about") {echo 'class="active"';}?> href="<?php echo site_url('about'); ?>" title="<?php echo lang('menu_about'); ?>"><?php echo lang('menu_about'); ?></a></li>
                         <?php
-                            if ($this->config->item('require_auth') ){
-                                if ($this->auth_ldap->is_authenticated()){
-                                    echo "<li><a href=" . site_url('auth/logout') . ' title="' . lang('menu_logout') . '">' . lang('menu_logout') . '</a></li>';
-                                }
-                            }
-                        ?>
+if ($this->config->item('require_auth')) {
+    if ($this->auth_ldap->is_authenticated()) {
+        echo "<li><a href=" . site_url('auth/logout') . ' title="' . lang('menu_logout') . '">' . lang('menu_logout') . '</a></li>';
+    }
+}
+?>
 					</ul>
 				</div>
 
 				<div class="content">
 					<div class="container">
-						<?php if(isset($status_message)){?>
+						<?php if (isset($status_message)) {?>
 						<div class="message success change">
 							<div class="container">
 								<?php echo $status_message; ?>
