@@ -608,6 +608,11 @@ a {
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
+
+a .linkified {
+  color: rgb(100, 154, 199);
+}
+
 a:hover {
   color: transparent;
   text-decoration: none;
