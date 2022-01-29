@@ -55,6 +55,9 @@ h4 {
 
 /* !Header */
 .header {
+  background-color: #000000;
+  color: #fff;
+  height: 40px;
 }
 
 .header h1 {
@@ -227,7 +230,7 @@ h4 {
 }
 
 .form_wrapper .instruction.error {
-  color: #f02f34;
+  color: #a8a8ae;
 }
 
 .form_wrapper .instruction.error p {
@@ -284,7 +287,7 @@ h4 {
   width: 125px;
   height: 30px;
   border: 0;
-  background: #666666;
+  background-color: #666666;
   text-align: center;
   line-height: 231%;
   color: #ffffff;
@@ -307,7 +310,7 @@ h4 {
 }
 
 .form_wrapper .dangerbutton:hover {
-  background: #f00;
+  background: rgb(139, 157, 206);
 }
 
 .form_wrapper .message_wrapper .message {
@@ -597,7 +600,7 @@ h4 {
 /* Special for dark theme */
 
 a {
-  color: rgb(92, 4, 4);
+  color: rgb(100, 154, 199);
   text-decoration: underline;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -606,7 +609,7 @@ a {
   transition: all 0.25s ease-in-out;
 }
 a:hover {
-  color: rgb(161, 14, 38);
+  color: rgb(197, 209, 189);
   text-decoration: none;
 }
 .CodeMirror-scroll {
