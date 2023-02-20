@@ -2,7 +2,7 @@
   <div class="center">
     <!-- Begin Casjays Developments Footer -->
 
-    Copyright 1999 - 2022
+    Copyright 1999 - 2023
     <br />
     <a href="https://casjay.net" target="_blank">Casjays Developments</a> and <a href="https://jason.malaks.us" target="_blank">Jason M. Hempstead-Malak</a><br />
     Hosting by <a href="https://casjay.net/hosting" target="_blank">Casjays Developments: Hosting</a><br />

@@ -4,9 +4,14 @@
 
 $config['site_name'] = 'CasjaysDev pastebin';
 $config['base_url'] = 'https://casjay.cc/';
-$config['db_database'] = '/var/lib/httpd/stikked';
-$config['db_driver'] = 'sqlite';
+
+$config['db_driver'] = 'mysqli';    # sqlite
+$config['db_database'] = 'casjay_cc'; #/var/lib/httpd/stikked/data.db
+$config['db_hostname'] = '10.0.0.146';
+$config['db_username'] = 'root';
+$config['db_password'] = '80@Malak87';
 $config['db_prefix'] = '';
+
 //Currently: default, bootstrap, gabdark, gabdark3, geocities, snowkat, stikkedizr, cleanwhite, i386
 $config['theme'] = 'default';
 $config['qr_enabled'] = true;
