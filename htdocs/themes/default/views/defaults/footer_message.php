@@ -1,7 +1,7 @@
-<div class="footer">
-  <div class="center">
-    <!-- Begin Casjays Developments Footer -->
-
+<!-- Begin Footer -->
+<div id="footer" class="footer" align="center">
+<br /><br /><br /><br /><br /><br /><br />
+<!-- Begin Casjays Developments Footer -->
     Copyright 1999 - 2023
     <br />
     <a href="https://casjay.net" target="_blank">Casjays Developments</a> and <a href="https://jason.malaks.us" target="_blank">Jason M. Hempstead-Malak</a><br />
@@ -42,7 +42,7 @@
     <!-- End theme Code -->
     <!-- Begin last updated -->
     <span style="color: skyblue;">
-      Last update on: August 19, 2021 at 16:59
+      Last update on: Feb 20, 2023 at 15:25
     </span>
     <!-- End last updated -->
     <!--Begin Statcounter Code -->
@@ -67,40 +67,38 @@
     <br />
 
     <!-- End ads Code -->
-    <!-- Begin EU compliant -->
+<!-- Begin EU compliant -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#64386b",
+      "text": "#ffcdfd"
+    },
+    "button": {
+      "background": "transparent",
+      "text": "#f8a8ff",
+      "border": "#f8a8ff"
+    }
+  },
+  "content": {
+    "message": "In accordance with the EU GDPR law this message is being displayed. - ",
+    "dismiss": "I Agree",
+    "link": "CasjaysDev Policy",
+    "href": "https://casjaysdev.com/policy/"
+  },
+  "type": "opt-out"
+})});
+</script>
+<!-- End EU compliant -->
+<br />
+<br />
+<br />
+<br />
+<br />
 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-    <script>
-      window.addEventListener("load", function() {
-        window.cookieconsent.initialise({
-          "palette": {
-            "popup": {
-              "background": "#64386b",
-              "text": "#ffcdfd"
-            },
-            "button": {
-              "background": "transparent",
-              "text": "#f8a8ff",
-              "border": "#f8a8ff"
-            }
-          },
-          "content": {
-            "message": "In accordance with the EU GDPR law this message is being displayed. - ",
-            "dismiss": "I Agree",
-            "link": "CasjaysDev Policy",
-            "href": "https://casjaysdev.com/policy/"
-          },
-          "type": "opt-out"
-        })
-      });
-    </script>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <!-- End EU compliant -->
   </div>
 </div>
