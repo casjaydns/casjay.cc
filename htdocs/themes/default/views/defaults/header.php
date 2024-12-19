@@ -51,7 +51,7 @@ $theme = $this->config->item('theme');
 	<title><?php echo $page_title; ?></title>
 </head>
 
-<body>
+<body class="center">
 	<div id="container">
 		<div class="container">
 			<div class="header">
