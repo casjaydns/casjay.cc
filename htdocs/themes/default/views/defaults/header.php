@@ -27,7 +27,7 @@ $theme = $this->config->item('theme');
 		'dev' => !$this->config->item('combine_assets'),
 	));
 	// CSS
-	$this->carabiner->css('reset.css');
+	// $this->carabiner->css('reset.css');
 	$this->carabiner->css('jquery-ui.min.css');
 	$this->carabiner->css('fonts.css');
 	$this->carabiner->css('main.css');
@@ -51,7 +51,7 @@ $theme = $this->config->item('theme');
 	<title><?php echo $page_title; ?></title>
 </head>
 
-<body class="center">
+<body class="text-center center">
 	<div id="container">
 		<div class="container">
 			<div class="header">
