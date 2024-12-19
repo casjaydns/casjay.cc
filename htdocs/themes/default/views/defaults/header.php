@@ -46,7 +46,7 @@ $theme = $this->config->item('theme');
 
 	<link rel="stylesheet" type="text/css"
 		href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
-	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/3/darkly/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/5/darkly/bootstrap.css">
 	<title><?php echo $page_title; ?></title>
 </head>
 
