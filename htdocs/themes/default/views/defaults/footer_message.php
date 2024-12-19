@@ -70,33 +70,32 @@
   <br />
   <br />
   <!-- Begin EU compliant -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
   <script>
-    window.addEventListener("load", function () {
-      window.cookieconsent.initialise({
-        "palette": {
-          "popup": {
-            "background": "#64386b",
-            "text": "#ffcdfd"
-          },
-          "button": {
-            "background": "transparent",
-            "text": "#f8a8ff",
-            "border": "#f8a8ff"
-          }
+    window.cookieconsent.initialise({
+      palette: {
+        popup: {
+          background: '#64386b',
+          text: '#ffcdfd',
         },
-        "type": "opt-out",
-        "content": {
-          "message": "In accordance with the EU GDPR law this message is being displayed. - ",
-          "dismiss": "I Agree",
-          "link": "CasjaysDev Policy",
-          "href": "https://casjaysdev.pro/policy/"
+        button: {
+          background: '#f8a8ff',
+          text: '#3f0045',
         },
-      })
+      },
+      theme: 'edgeless',
+      content: {
+        message:
+          'This site uses cookie and in accordance with the EU GDPR<br />law this message is being displayed.<br />',
+        dismiss: 'dismiss',
+        link: 'CasjaysDev Privacy Policy',
+        href: '//casjaysdev.pro/policy',
+      },
     });
   </script>
-  <br>
-  <!-- end EU compliant --->
+  <br />
+  <!-- End EU compliant -->
+  <br />
   <br />
   <br />
 
